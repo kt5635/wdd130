@@ -23,7 +23,7 @@ main div {
     display: flex;
     justify-content: center;
     padding-right: 5rem;
-    padding-left: 5 rem;
+    padding-left: 5rem;
 }
 
 aside {
@@ -72,7 +72,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* class selectors */
+/* Class Selectors */
 
 .box {
     margin: 2rem;

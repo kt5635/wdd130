@@ -16,7 +16,14 @@ main {
 main img {
     width: 150px;
     height: auto;
-    float: inline-end;
+    float: right;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    padding-right: 5rem;
+    padding-left: 5 rem;
 }
 
 aside {
@@ -36,7 +43,7 @@ aside h2 {
 }
 
 p {
-    padding: 0;
+    padding: 1rem;
     width: 50rem;
     overflow: auto;
 }

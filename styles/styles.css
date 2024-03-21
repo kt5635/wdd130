@@ -36,6 +36,7 @@ main img {
 main div {
     display: flex;
     padding: 1rem;
+    align-items: start;
 }
 
 aside img {

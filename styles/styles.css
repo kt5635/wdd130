@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header, .grid, footer {
+header, footer, .grid {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -27,14 +27,14 @@ aside {
 }
 
 main img {
-    width: 125px;
+    width: 175px;
     height: auto;
     float: right; 
     clear: both; 
 }
 
-main p {
-    display: block;
+main div {
+    display: flex;
     padding: 1rem;
 }
 

@@ -131,7 +131,6 @@ p {
     display: grid;
     margin-top: 3rem; 
     gap: 15px;
-    max-width: 1000px;
     padding-right: 30px;
     padding-left: 30px;
     border: 2px solid var(--accent2-color);
@@ -149,7 +148,7 @@ p {
 .adventure {
     display: grid;
     margin-top: 3rem; 
-    gap: 15px;
+    gap: 5px;
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 30px;

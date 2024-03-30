@@ -27,8 +27,12 @@
     align-items: center;
 }
 
+.item1 {
+    grid-column-start: 1;
+    padding-left: 2rem;
+}
 .item2 {
-    grid-column-end: 6;
+    grid-column-end: 5;
 }
 
 header img {

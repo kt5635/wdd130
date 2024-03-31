@@ -252,7 +252,6 @@ fieldset {
 }
 
 button {
-
     margin: 2rem;
     border-radius: 8px;
     padding: 10px;
@@ -269,4 +268,10 @@ button {
     margin-top: 3rem;
     border: 2px solid var(--accent2-color);
     padding: 1rem;
+}
+
+iframe {
+    width: 200px;
+    height: auto;
+    border: 2px solid var(--accent2-color);
 }

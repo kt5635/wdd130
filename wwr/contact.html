@@ -26,20 +26,26 @@
     </header>
 
     <main>
-        <h1>Contact Us</h1>
+        <div class="flex-container">
+            <div class="hero">
+                <img src="images/chandan-chaurasia-kTRFDUBBRdI-unsplash-edit.jpg" alt="White water rafting in the Rocky Mountains">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
         <section class="staff">
              <h2>Meet Our Team!</h2>
               <figure>
                 <img src="images/edward-cisneros-_H6wpor9mjs-unsplash.jpg" alt="Image of Jane Smith">
                 <figcaption>Jane Smith</figcaption>
-            </figure>                <figure>
+            </figure>                
+            <figure>
                 <img src="images/yonas-bekele-UgVbUMQrmjY-unsplash.jpg" alt="Image of Jason Jones">
                 <figcaption>Jason Jones</figcaption>
             </figure>
             <figure>
                 <img src="images/dillon-kydd-tHk6m4vgMys-unsplash.jpg" alt="Image of Gwen Rodgers">
                     <figcaption>Gwen Rodgers</figcaption>
-              </figure>
+            </figure>
             <figure>
                 <img src="images/kenny-eliason-8AGfQQl_RSM-unsplash.jpg" alt="Image of Sam Black">
                     <figcaption>Sam Black</figcaption>
@@ -47,15 +53,15 @@
         </section>
 
         <form>
-            <h2>HTML and CSS Quiz</h2>
             <fieldset>
+                <h2>Questions?</h2>
                 <label for="q1">Name</label>
                 <input type="text" id="q1" name="q1">
 
                 <label for="q2">Email</label>
                 <input type="text" id="q2" name="q2">
 
-                <p>What can we help you with?</p>
+                <label for="q3">What can we help you with?</label>
                 <label for="general">General Inquiries</label>
                 <input type="radio" id="general-inquiry" name="purpose">
                 <label for="reservation">Reservation Questions</label>
@@ -66,17 +72,23 @@
                 <label for="q4">Please give us some more details so we can assist you!</label>
                 <textarea id="q4" name="q4" rows="6"></textarea>
 
-                <p>Would you like to be added to our newsletter?</p>
+                <label for="newsletter">Would you like to be added to our newsletter?</label>
                 <label for="q5">Yes</label>
                 <input type="checkbox" id="q5" name="q5">
+                <button type="submit">Submit Inquiry</button>
             </fieldset>
-            <button type="submit">Submit Inquiry</button>
-        </form>
 
-        <div>
-            <p>Address:</p>
-            <p>Phone:</p>
-            <p>Contact Email:</p>
+        </form>
+        
+        <div class="contact">
+            <div>
+                <h3>Address: 2000 Devereux Rd, Glenwood Springs, CO 81601</h3>
+                <h3>Phone: (970)938-1677</h3>
+                <h3>Contact Email: info@whitewaterrafting.com</h3>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.988425937149!2d-107.35842731096683!3d39.559868534103224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741096248b0b099%3A0x6835dde86c877c52!2sWhitewater%20Rafting%2C%20LLC!5e0!3m2!1sen!2sus!4v1711848983119!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            </div>
         </div>
 
     </main>

@@ -17,10 +17,6 @@
     --nav-hover-background-color: #99D4D6;
 }
 
-h1, h2, h3 {
-
-}
-
 /* header and navigation */
 .grid-container {
     display: grid;
@@ -208,6 +204,8 @@ footer img {
     gap: 0px;
 }
 
+/* contact page css */
+
 
 .staff {
     display: grid;
@@ -229,17 +227,46 @@ footer img {
 
 }
 
+form {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin: 3rem;
+}
+
+label {
+    padding: 5px;
+}
+
+
 fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
     width: 35rem;
     border: 2px solid var(--accent2-color);
     border-radius: 8px;
+    background-color: var(--accent3-color);
+    padding: .5rem 2rem;
 }
 
 button {
-    margin: 5px;
+
+    margin: 2rem;
     border-radius: 8px;
-    padding: 10px 30px;
+    padding: 10px;
     border: 2px solid var(--accent2-color);
     color: var(--primary-color);
     background-color: var(--accent1-color)
+}
+
+
+.contact {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    margin-top: 3rem;
+    border: 2px solid var(--accent2-color);
+    padding: 1rem;
 }

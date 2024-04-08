@@ -372,6 +372,18 @@ iframe {
     background-color: var(--accent1-color)
 }
 
+.available-trips a:link, .available-trips a:visited {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 2rem;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid var(--accent2-color);
+    color: var(--primary-color);
+    background-color: var(--accent1-color)
+}
+
 /* trips */
 
 .trip-summary {
@@ -404,6 +416,18 @@ th {
 }
 
 .trips-button a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 2rem;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid var(--accent2-color);
+    color: var(--primary-color);
+    background-color: var(--accent1-color)
+}
+
+.trips-button a:link, .trips-button a:visited {
     display: flex;
     justify-content: center;
     text-decoration: none;
